@@ -10,7 +10,7 @@ namespace Stockfish.NET
         void SetPosition(params string[] move);
         string GetBoardVisual();
         string GetFenPosition();
-        void SetFenPosition(string fenPosition);
+        void SetFenPosition(string fenPosition, params string[] moves);
         string GetBestMove();
         string GetBestMoveTime(int time = 1000);
         bool IsMoveCorrect(string moveValue);

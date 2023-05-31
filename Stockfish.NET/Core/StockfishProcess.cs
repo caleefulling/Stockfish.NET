@@ -5,6 +5,7 @@ using System.Diagnostics;
 
 namespace Stockfish.NET
 {
+    [Serializable]
     internal class StockfishProcess
     {
         /// <summary>

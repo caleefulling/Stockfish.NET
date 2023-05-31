@@ -38,7 +38,7 @@ namespace Stockfish.NET.Models
         {
             return new Dictionary<string, string>
             {
-                ["Contempt"] = Contempt.ToString(),
+                //["Contempt"] = Contempt.ToString(),
                 ["Threads"] = Threads.ToString(),
                 ["Ponder"] = Ponder.ToString(),
                 ["MultiPV"] = MultiPV.ToString(),

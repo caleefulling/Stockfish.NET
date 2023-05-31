@@ -269,10 +269,11 @@ namespace Stockfish.NET.Core
         /// Set position in fen format
         /// </summary>
         /// <param name="fenPosition"></param>
-        public void SetFenPosition(string fenPosition)
+        /// <param name="moves"></param>
+        public void SetFenPosition(string fenPosition, params string[] moves)
         {
             startNewGame();
-            send($"position fen {fenPosition}");
+            send($"position fen {fenPosition} moves {movesToString(moves)}");
         }
 
         /// <summary>
