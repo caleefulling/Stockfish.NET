@@ -1,5 +1,8 @@
-﻿namespace Stockfish.NET.Models
+﻿using System;
+
+namespace Stockfish.NET.Models
 {
+    [Serializable]
     public class Evaluation
     {
         public string Type { get; set; }

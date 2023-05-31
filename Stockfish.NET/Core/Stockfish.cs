@@ -6,6 +6,7 @@ using Stockfish.NET.Models;
 
 namespace Stockfish.NET.Core
 {
+    [Serializable]
     public class Stockfish : IStockfish
     {
         #region private variables

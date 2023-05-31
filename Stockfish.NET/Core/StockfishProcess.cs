@@ -11,11 +11,13 @@ namespace Stockfish.NET
         /// <summary>
         /// Default process info for Stockfish process
         /// </summary>
+        [field: NonSerialized]
         private ProcessStartInfo _processStartInfo { get; set; }
 
         /// <summary>
         /// Stockfish process
         /// </summary>
+        [field: NonSerialized]
         private Process _process { get; set; }
 
         /// <summary>

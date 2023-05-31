@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Stockfish.NET.Models
 {
+    [Serializable]
     public class Settings
     {
         public int Contempt { get; set; }
